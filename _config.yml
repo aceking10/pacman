@@ -16,9 +16,8 @@ menu:
 widgets: 
 - category
 - tag
-- tagcloud
 - archive
-- recent_posts
+- tagcloud
 - rss
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
