@@ -2,6 +2,9 @@
 menu:
   Home: /
   Archives: /archives
+  Categories: /categories
+  Tags: /tags
+  About: /about
 ## you can create `tags` and `categories` folders in `../source`.
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -13,12 +16,15 @@ menu:
 widgets: 
 - category
 - tag
+- tagcloud
+- archive
+- recent_posts
 - rss
 ## provide six widgets:category,tag,rss,archive,tagcloud,links.
 ## modify links in `/layout/_widget/links.ejs`.
 
 #### RSS
-rss: ## RSS address.
+rss: http://aceking.gitcafe.com/atom.xml
 
 #### Image
 imglogo:
@@ -59,16 +65,16 @@ author:
   google_plus:    ## eg:116338260303228776998 for https://plus.google.com/u/0/116338260303228776998
   intro_line1: "" ## eg: "Hello ,I'm Larry Page in Google."
   intro_line2: "" ## eg: "This is my blog,believe it or not."
-  weibo:      ## e.g. 436062867 for http://weibo.com/436062867
+  weibo: aceking10
   twitter:    ## e.g. yangjiansky for https://twitter.com/yangjiansky
-  github:     ## e.g. A-limon for https://github.com/A-limon
+  github: aceking10
   facebook:   ## e.g. yangjian for https://favebook.com/yangjian
   tsina:      ## e.g. 1664838973  Your weibo ID,It will be used in share button.
   linkedin:   ## e.g. in/jeffweiner08 for https://www.linkedin.com/in/jeffweiner08
 
 #### Comment
 duoshuo: 
-  enable: false  ## duoshuo.com
+  enable: ture  ## duoshuo.com
   short_name:    ## duoshuo short name.
 
 #### Share button
